@@ -1,0 +1,82 @@
+.perfil_container > div {
+	width: 772px;
+}
+.perfil-info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	margin-bottom: 60px;
+	background-color: #e6e6e6;
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+	padding: 24px 20px ;
+}
+.perfil-info h1 {
+	grid-column: 1 / -1;
+	font-size: 22px;
+	line-height: 1.5;
+}
+.perfil-info ul {
+	margin: 12px 0 32px 0;
+	display: flex;
+	flex-direction: column;
+	justify-self: flex-start;
+	grid-column: 1 / -1;
+}
+.perfil-info ul li {
+	line-height: 1.7;
+}
+.perfil-info form {
+	grid-column: 2;
+	justify-self: flex-end;
+	grid-row: 3;
+}
+.perfil-info form button {
+	display: flex;
+	cursor: pointer;
+	flex-direction: row;
+	background-color: #f53f32;
+	border: 1px solid #F42D1F;
+	align-items: center;
+	gap: 5px;
+	padding: 8px 18px 8px 18px;
+}
+.perfil-info form button:hover{
+	background-color: hsl(4, 91%, 56%);
+}
+.perfil-info form button:active{
+	background-color: hsl(4, 91%, 54%);
+}
+/* ------------------------------------- */
+.perfil_relatos > h2 {
+	font-size: 22px;
+	margin-bottom: 12px;
+	line-height: 1.5;
+}
+.relatos-bx {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.relatos-bx > div {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 4px;
+	background-color: #e6e6e6;
+	border: 1px solid #D9D9D9;
+	padding: 20px;
+	border-radius: 4px;
+}
+.relatos-bx a{
+	justify-self: flex-end;
+	align-self: center;
+}
+.relatos-bx div p {
+	line-height: 1.5;
+	font-size: 16px;
+	align-self: center;
+}
+.relatos-bx div a button {
+	padding: 10px 16px;
+	cursor: pointer;
+}

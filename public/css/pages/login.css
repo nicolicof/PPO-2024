@@ -1,0 +1,39 @@
+.form-area h1 {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.form-area form {
+	display: flex;
+	width: 310px;
+	margin-top: 28px;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+.form-area form div {
+	display: flex;
+	gap: 8px;
+	flex-direction: column;
+}
+
+.form-area p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+.form-area p.error{
+	margin: 0;
+	color: hsla(0, 100%, 42%);
+	padding: 6px 8px;
+	border-radius: 4px;
+	display: block;
+	background-color: hsla(0, 100%, 50%, 0.150);
+	border: 1px solid hsla(0, 100%, 45%, 0.150);
+}
+
+.form-area button.blue-btn{
+	margin-top: 8px;
+}

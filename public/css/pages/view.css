@@ -1,0 +1,69 @@
+.local_vw {
+	width: 560px;
+	background-color: #F2F2F2;
+	border: 1px solid #D9D9D9;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 34px;
+	border-radius: 8px;
+}
+.local_info {
+	display: flex;
+	flex-direction: column;
+}
+.local_info h1 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.3;
+	margin-bottom: 2px;
+}
+.local_info h2 {
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 16px;
+	line-height: 1.1;
+}
+.local_info p {
+	line-height: 1.5;
+}
+.local_actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.local_actions button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	border: 1px solid #D4D4D4;
+	border-radius: 4px;
+	gap: 4px;
+	padding: 10px 22px 10px 16px;
+	color: #595959;
+}
+.local_actions button:hover {
+	background-color: #D4D4D4;
+}
+.local_actions button:active {
+	background-color: #c7c7c7;
+	border-color: #c7c7c7;
+}
+.local_actions a {
+	background-color: #F54135;
+	color: #fff;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1;
+	padding: 12px 20px;
+}
+.local_actions a:hover {
+	background-color: hsl(4, 91%, 52%);
+}
+
+.local_actions a:active {
+	background-color: hsl(4, 91%, 48%);
+}

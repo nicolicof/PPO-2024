@@ -1,0 +1,47 @@
+#init_title {
+	font-size: 40px;
+	line-height: 52px;
+	color: #3B3B3B;
+	text-align: center;
+	margin-top: 142px;
+}
+#init_title span {
+	font-size: inherit;
+	text-decoration: underline;
+}
+#init_sign {
+	border: 1px solid #1558EA;
+	background-color: #2563EB;
+	color: #fff;
+	font-size: 18px;
+	line-height: 1;
+	padding: 11px 22px;
+	border-radius: 4px;
+	font-weight: 700;
+	box-shadow: 0 0 4px #1558EA;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+#init_sign:hover{
+	background-color: hsl(221, 83%, 50%);
+	box-shadow: 0 0 8px #1558EA;
+}
+#init_sign:active{
+	background-color: hsl(221, 83%, 47%);
+}
+#init_login {
+	border: 1px solid #C7C7C7;
+	color: hsl(0, 0%, 30%);
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 4px;
+	padding: 11px 52px;
+	line-height: 1;
+	background-color: #CFCFCF;
+	transition: background-color 0.2s ease;
+}
+#init_login:hover{
+	background-color: hsl(0, 0%, 78%);
+}
+#init_login:active{
+	background-color: hsl(0, 0%, 74%);
+}

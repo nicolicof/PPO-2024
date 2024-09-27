@@ -1,0 +1,70 @@
+.denunciar-container {
+    max-width: 754px;
+}
+.denunciar-container > div {
+    width: 754px;
+    row-gap: 28px;
+    background-color: #e6e6e6;
+    border: 1px solid #D9D9D9;
+    padding: 28px 28px 24px 28px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.denunciar-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.denunciar-info h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+.denunciar-info h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+}
+.denunciar-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+.denunciar-form div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.denunciar-form div textarea {
+    border-radius: 4px;
+    max-height: 171px;
+    line-height: 1.2;
+    background-color: #D9D9D9;
+	border: 1px solid #CCCCCC;
+    padding: 14px 14px;
+    height: 128px;
+}
+.denunciar-form select#classificacao{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #333333;
+    font-size: 16px;
+	background-color: #D9D9D9;
+	border: 1px solid #CCCCCC;
+    padding: 14px 12px;
+    border-radius: 4px;
+}
+.denunciar-form button {
+    align-self: flex-end;
+    padding: 12px 28px;
+    border: 1px solid #F54135;
+    background-color: #F54135;
+}
+.denunciar-form button:hover {
+    background-color: hsl(4, 91%, 54%);
+}
+.denunciar-form button:active {
+    background-color: hsl(4, 91%, 50%);
+}

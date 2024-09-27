@@ -1,0 +1,36 @@
+input, button{
+	padding: 12px 16px;
+	border-radius: 4px;
+	background-color: #D9D9D9;
+	border: 1px solid #CCCCCC;
+}
+input::placeholder{
+	color: #737373;
+	user-select: none;
+}
+input:focus{
+	border: 1px solid #2563EB;
+	caret-color: #2563EB;
+}
+button{
+	color: #ffffff;
+	font-weight: 700;
+	border-radius: 4px;
+}
+button.blue-btn{
+	background-color: #2563EB;
+	border: 1px solid #2563EB;
+}
+button.blue-btn:hover{
+	background-color: #1659e9;
+}
+button.blue-btn:active{
+	background-color: #1453db;
+}
+
+/* ------------------------------ */
+.link{
+	color: #2563EB;
+	text-decoration: underline;
+}
+

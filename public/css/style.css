@@ -1,0 +1,14 @@
+@import url(./elements/global.css);
+@import url(./elements/header.css);
+@import url(./elements/diversos.css);
+
+@import url(./pages/pag_inicial.css);
+@import url(./pages/login.css);
+
+@import url(./pages/chat.css);
+@import url(./pages/profile.css);
+@import url(./pages/address_search.css);
+@import url(./pages/view.css);
+@import url(./pages/report.css);
+@import url(./pages/all_locals.css);
+@import url(./pages/report_view.css);
